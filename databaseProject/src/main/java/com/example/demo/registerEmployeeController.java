@@ -40,6 +40,8 @@ public class registerEmployeeController {
             Stage window = (Stage) registerEmp.getScene().getWindow();
             Scene scene = new Scene(new FXMLLoader(ilovepizzaApplication.class.getResource("loginPage.fxml")).load(),640,400);
             window.setScene(scene);
+            stmt.close();
+            conn.close();
         }else{
             Alert a = new Alert(Alert.AlertType.ERROR);
             a.setContentText("Two input password inconsistent, please confirm to re-enter");

@@ -19,7 +19,6 @@ import java.util.Scanner;
 public class hostConnectorController {
     @FXML
     protected Label backToLoginPageHostConnector;
-
     @FXML
     protected TextField hostName;
     @FXML
@@ -92,32 +91,31 @@ public class hostConnectorController {
             //insert values
             //ingredients
             stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (1,'tomato sauce',1.12)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (2,'extra mozzarella',0.95)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (3,'extra domino pepperoni',0.32)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (4,'fresh tomatoes',0.51)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (5,'kebab meat',1.20)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (6,'kebab sauce',0.20)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (7,'gherkins',0.30)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (8,'burger sauce',0.20)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (9,'mozzarella',0.92)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (10,'premium beef',1.23)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (11,'hot salami',1.50)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (12,'jalapeno',0.70)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (13,'cheddar',0.40)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (14,'shepard cheese',0.60)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (15,'blue cheese',0.60)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (16,'white cremefine',1.32)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (17,'grilled chicken',1.41)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (18,'bacon',1.50)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (19,'red onion',0.73)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (20,'corn',0.50)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (21,'peppers',0.23)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (22,'mixed peppers',0.23)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (23,'mushroooms',0.82)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (24,'black olives',0.80)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (25,'bbq sauce',0.38)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (26,'sweat corn',0.50)");
-            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (27,'hot sauce',0.23)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (2,' domino pepperoni',0.32)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (3,'fresh tomatoes',0.51)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (4,'kebab meat',1.20)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (5,'kebab sauce',0.20)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (6,'gherkins',0.30)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (7,'burger sauce',0.20)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (8,'mozzarella',0.92)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (9,'premium beef',1.23)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (10,'hot salami',1.50)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (11,'jalapeno',0.70)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (12,'cheddar',0.40)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (13,'shepard cheese',0.60)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (14,'blue cheese',0.60)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (15,'white cremefine',1.32)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (16,'grilled chicken',1.41)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (17,'bacon',1.50)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (18,'red onion',0.73)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (19,'corn',0.50)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (20,'peppers',0.23)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (21,'mixed peppers',0.23)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (22,'mushroooms',0.82)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (23,'black olives',0.80)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (24,'bbq sauce',0.38)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (25,'sweat corn',0.50)");
+            stmt.execute("INSERT INTO ingredient (ingre_id,ingre_name,ingre_price) VALUES (26,'hot sauce',0.23)");
 
             //pizza
             stmt.execute("INSERT INTO pizza VALUES (1,'Pepperoni Passion',false)");
@@ -135,12 +133,74 @@ public class hostConnectorController {
             //pi_ingre
             stmt.execute("INSERT INTO pi_ingre VALUES (1,1)");
             stmt.execute("INSERT INTO pi_ingre VALUES (1,2)");
-            stmt.execute("INSERT INTO pi_ingre VALUES (1,3)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (1,8)");
             stmt.execute("INSERT INTO pi_ingre VALUES (2,1)");
-            stmt.execute("INSERT INTO pi_ingre VALUES (2,9)");
-            stmt.execute("INSERT INTO pi_ingre VALUES (2,19)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (2,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (2,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (2,3)");
             stmt.execute("INSERT INTO pi_ingre VALUES (2,4)");
-            stmt.execute("INSERT INTO pi_ingre VALUES (2,4)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (2,5)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (3,1)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (3,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (3,16)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (3,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (3,3)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (3,6)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (3,12)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (3,7)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (4,1)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (4,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (4,9)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (4,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (4,3)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (4,6)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (4,12)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (4,7)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (5,1)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (5,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (5,10)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (5,11)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (5,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,1)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,12)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,13)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,14)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,15)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,16)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,17)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (6,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (7,15)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (7,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (7,16)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (7,17)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (7,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (8,1)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (8,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (8,16)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (8,19)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (8,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (8,20)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (9,1)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (9,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (9,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (9,21)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (9,22)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (9,23)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (9,19)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (10,24)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (10,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (10,16)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (10,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (10,17)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (11,24)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (11,8)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (11,9)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (11,18)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (11,21)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (11,25)");
+            stmt.execute("INSERT INTO pi_ingre VALUES (11,26)");
 
             //dessert
             stmt.execute("INSERT INTO dessert VALUES (1,'Cinnabites')");
@@ -148,7 +208,7 @@ public class hostConnectorController {
             stmt.execute("INSERT INTO dessert VALUES (3,'Lave cake')");
             stmt.execute("INSERT INTO dessert VALUES (4,'Brownie')");
 
-            //
+            //f
 
             //drink
             stmt.execute("INSERT INTO drink VALUES (1,'Coke','original taste coca-cola')");
@@ -160,6 +220,8 @@ public class hostConnectorController {
             stmt.execute("INSERT INTO drink VALUES (7,'JACKIE WELLES','A shot of vodka, lime juice, ginger beer and, most importantly… a splash of love.')");
             stmt.execute("INSERT INTO drink VALUES (8,'THE DAVID MARTINEZ','A shot of vodka on the rocks, tapped with Nicola, Aim high and go out with a bang. The carbonated drinks are for lucy, David doesnt like them.')");
             System.out.println("reached");
+            stmt.close();
+            conn.close();
 
             Stage window = (Stage) connector.getScene().getWindow();
             Scene scene = new Scene(new FXMLLoader(ilovepizzaApplication.class.getResource("loginPage.fxml")).load(),640,400);

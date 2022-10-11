@@ -69,7 +69,9 @@ public class registerCustomerController {
             System.out.println("new customer created");
             Stage window = (Stage) registerCus.getScene().getWindow();
             Scene scene = new Scene(new FXMLLoader(ilovepizzaApplication.class.getResource("loginPage.fxml")).load(),640,400);
-            window.setScene(scene);
+
+            stmt.close();
+            conn.close();
 
         }else{
             Alert a = new Alert(Alert.AlertType.ERROR);

@@ -15,6 +15,7 @@ public class hostInfo {
 //        System.out.println(readin(1,1));
 //        System.out.println(readin(1,2));
 //    }
+
     public static String readin(int row,int col){
         String result = null;
         try {

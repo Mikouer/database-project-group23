@@ -26,6 +26,7 @@ public class adminLoginController {
     @FXML
     protected void adminLogin() throws IOException {
         if(adminName.getText().equals(hostInfo.getUSER())&&adminPassword.getText().equals(hostInfo.getPASS())){
+
             Stage window = (Stage) backToLoginAdmin.getScene().getWindow();
             Scene scene = new Scene(new FXMLLoader(ilovepizzaApplication.class.getResource("registerEmployee.fxml")).load(),640,400);
             window.setScene(scene);
